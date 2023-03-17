@@ -1,0 +1,48 @@
+body {
+  background-color:  #262323;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-wrapper video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 480px) {
+  .video-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-wrapper video {
+    width: 100%;
+    height: auto;
+  }
+}
