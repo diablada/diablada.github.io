@@ -3,3 +3,5 @@ console.log("Hello World");
 
 var word = "Hello WOrlD!";
 console.log(word);
+
+console.log("Var success")
